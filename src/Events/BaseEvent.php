@@ -3,7 +3,10 @@
 namespace ZeroDaHero\LaravelWorkflow\Events;
 
 use Workflow;
+use Symfony\Component\Workflow\WorkflowInterface;
 use Symfony\Component\Workflow\Event\Event;
+use Symfony\Component\Workflow\Marking;
+use Symfony\Component\Workflow\Transition;
 
 /**
  * @method Marking getMarking()
